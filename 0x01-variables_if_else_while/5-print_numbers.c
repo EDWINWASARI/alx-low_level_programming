@@ -1,24 +1,21 @@
 #include <stdio.h>
 
-
 /**
- * main - program that prints the alphabet in lowercase and upper case
+ * main - Entry point
  *
- * Return: Always 0.
+ * Description: Prints single-digit numbers from 0 to 9 followed by a newline.
+ * All code is within the main function.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char letter;
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-
+	for (i = 0; i < 10; i++)
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+		printf("%d\n", i);
 	}
-
-	putchar('\n');
 
 	return (0);
 }
