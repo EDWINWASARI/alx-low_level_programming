@@ -1,11 +1,10 @@
 #include "main.h"
-
+int _isalpha(int c);
 /**
  * main - check the code.
  *
  * Return: Always 0.
  */
-int _isalpha(int c);
 int main(void)
 {
     int r;
