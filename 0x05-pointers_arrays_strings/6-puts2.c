@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * _putchar - writes a character to stdout
- * puts2- prints evey other character of a string
+ * puts2 - prints every other character of a string
  * @str: input string
- * Return: no return.
+ *
+ * Description: This function prints every other character of a string,
+ * starting from the first character, followed by a new line.
+ *
+ * Return: No return value.
  */
 void puts2(char *str)
 {
