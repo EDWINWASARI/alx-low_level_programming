@@ -12,7 +12,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-int w = 0, q = 0;	
+int w = 0, q = 0;
 while (dest[w] != '\0')
 {
 w++;
@@ -25,5 +25,5 @@ w++;
 q++;
 }
 dest[w] = '\0';
-return dest;
+return (dest);
 }
