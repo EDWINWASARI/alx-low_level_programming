@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - Checks if a number is divisible by another number.
+ * is_divisible_number - Checks if a number is divisible by another number.
  * @n: The number to check for divisibility.
  * @x: The divisor to check.
  *
