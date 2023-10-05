@@ -20,6 +20,6 @@ pic = malloc(sizeof(char) * (y + 1));
 if (pic == NULL)
 return (NULL);
 for (b = 0; str[b]; b++)
-pic[y] = str[b];
+pic[b] = str[b];
 return (pic);
 }
